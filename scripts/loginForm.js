@@ -4,16 +4,19 @@ $(document).ready(function(){
     $('#reset').click(function(){
         $('#loginForm').hide();
         $('#registerForm').hide();
+        $(".status").hide();
         $('#resetPasswordForm').fadeIn("slow");
     });
     $('#register').click(function(){
         $('#loginForm').hide();
         $('#resetPasswordForm').hide();
+        $(".status").hide();
         $('#registerForm').fadeIn("slow");
     });
     $('#login').click(function(){
         $('#registerForm').hide();
         $('#resetPasswordForm').hide();
+        $(".status").hide();
         $('#loginForm').fadeIn("slow");
     });
 })

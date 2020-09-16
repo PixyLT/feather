@@ -19,7 +19,7 @@ form .textinput{
 }
 
 form *{
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0;
 }
 
 .form p{
@@ -33,7 +33,7 @@ form *{
   display: flex;
   justify-content:  space-between;
   align-items: baseline;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0 0;
 }
 
 

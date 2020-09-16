@@ -1,0 +1,10 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    background: linear-gradient(90deg, #f4c4f3, #fc67fa);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
